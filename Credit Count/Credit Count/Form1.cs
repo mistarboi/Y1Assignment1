@@ -37,5 +37,15 @@ namespace Credit_Count
         {
 
         }
+
+        private void textBox10_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox24_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
