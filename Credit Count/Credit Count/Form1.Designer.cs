@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.button_Reset = new System.Windows.Forms.Button();
+            this.pictureBox_Coins_1p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Coins_2p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Coins_5p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Coins_10p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Coins_20p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Coins_50p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Coins_100p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Coins_200p = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_CoinsEntered_1p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_CoinsEntered_2p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_CoinsEntered_5p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_CoinsEntered_10p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_CoinsEntered_20p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_CoinsEntered_50p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_CoinsEntered_100p = new System.Windows.Forms.PictureBox();
+            this.pictureBox_CoinsEntered_200p = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -56,140 +56,163 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox_TotalValue = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox_TotalValueMixed = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox_CostPerCredit = new System.Windows.Forms.TextBox();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            this.textBox_NumberOfCredits = new System.Windows.Forms.TextBox();
+            this.textBox_Counter_200p = new System.Windows.Forms.TextBox();
+            this.textBox_Counter_100p = new System.Windows.Forms.TextBox();
+            this.textBox_Counter_50p = new System.Windows.Forms.TextBox();
+            this.textBox_Counter_20p = new System.Windows.Forms.TextBox();
+            this.textBox_Counter_10p = new System.Windows.Forms.TextBox();
+            this.textBox_Counter_5p = new System.Windows.Forms.TextBox();
+            this.textBox_Counter_2p = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox_Counter_1p = new System.Windows.Forms.TextBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_1p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_2p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_5p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_10p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_20p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_50p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_100p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_200p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_1p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_2p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_5p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_10p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_20p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_50p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_100p)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_200p)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // button_Reset
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(15, 457);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(390, 40);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Reset";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_Reset.BackColor = System.Drawing.Color.Red;
+            this.button_Reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Reset.Location = new System.Drawing.Point(13, 461);
+            this.button_Reset.Name = "button_Reset";
+            this.button_Reset.Size = new System.Drawing.Size(390, 40);
+            this.button_Reset.TabIndex = 0;
+            this.button_Reset.Text = "Reset";
+            this.button_Reset.UseVisualStyleBackColor = false;
+            this.button_Reset.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pictureBox1
+            // pictureBox_Coins_1p
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(15, 79);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox_Coins_1p.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox_Coins_1p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox_Coins_1p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Coins_1p.Image")));
+            this.pictureBox_Coins_1p.Location = new System.Drawing.Point(52, 77);
+            this.pictureBox_Coins_1p.Name = "pictureBox_Coins_1p";
+            this.pictureBox_Coins_1p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_Coins_1p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_Coins_1p.TabIndex = 1;
+            this.pictureBox_Coins_1p.TabStop = false;
+            this.pictureBox_Coins_1p.Click += new System.EventHandler(this.pictureBox_Coins_1p_Click);
             // 
-            // pictureBox2
+            // pictureBox_Coins_2p
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(15, 135);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox_Coins_2p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox_Coins_2p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Coins_2p.Image")));
+            this.pictureBox_Coins_2p.Location = new System.Drawing.Point(52, 133);
+            this.pictureBox_Coins_2p.Name = "pictureBox_Coins_2p";
+            this.pictureBox_Coins_2p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_Coins_2p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_Coins_2p.TabIndex = 2;
+            this.pictureBox_Coins_2p.TabStop = false;
+            this.pictureBox_Coins_2p.Click += new System.EventHandler(this.pictureBox_Coins_2p_Click);
             // 
-            // pictureBox3
+            // pictureBox_Coins_5p
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(15, 191);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
+            this.pictureBox_Coins_5p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox_Coins_5p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Coins_5p.Image")));
+            this.pictureBox_Coins_5p.Location = new System.Drawing.Point(52, 189);
+            this.pictureBox_Coins_5p.Name = "pictureBox_Coins_5p";
+            this.pictureBox_Coins_5p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_Coins_5p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_Coins_5p.TabIndex = 3;
+            this.pictureBox_Coins_5p.TabStop = false;
+            this.pictureBox_Coins_5p.Click += new System.EventHandler(this.pictureBox_Coins_5p_Click);
             // 
-            // pictureBox4
+            // pictureBox_Coins_10p
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(15, 247);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
+            this.pictureBox_Coins_10p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox_Coins_10p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Coins_10p.Image")));
+            this.pictureBox_Coins_10p.Location = new System.Drawing.Point(52, 245);
+            this.pictureBox_Coins_10p.Name = "pictureBox_Coins_10p";
+            this.pictureBox_Coins_10p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_Coins_10p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_Coins_10p.TabIndex = 4;
+            this.pictureBox_Coins_10p.TabStop = false;
+            this.pictureBox_Coins_10p.Click += new System.EventHandler(this.pictureBox_Coins_10p_Click_1);
             // 
-            // pictureBox5
+            // pictureBox_Coins_20p
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(121, 79);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
+            this.pictureBox_Coins_20p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox_Coins_20p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Coins_20p.Image")));
+            this.pictureBox_Coins_20p.Location = new System.Drawing.Point(206, 77);
+            this.pictureBox_Coins_20p.Name = "pictureBox_Coins_20p";
+            this.pictureBox_Coins_20p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_Coins_20p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_Coins_20p.TabIndex = 5;
+            this.pictureBox_Coins_20p.TabStop = false;
+            this.pictureBox_Coins_20p.Click += new System.EventHandler(this.pictureBox_Coins_20p_Click_1);
             // 
-            // pictureBox6
+            // pictureBox_Coins_50p
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(121, 135);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
+            this.pictureBox_Coins_50p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox_Coins_50p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Coins_50p.Image")));
+            this.pictureBox_Coins_50p.Location = new System.Drawing.Point(206, 133);
+            this.pictureBox_Coins_50p.Name = "pictureBox_Coins_50p";
+            this.pictureBox_Coins_50p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_Coins_50p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_Coins_50p.TabIndex = 6;
+            this.pictureBox_Coins_50p.TabStop = false;
+            this.pictureBox_Coins_50p.Click += new System.EventHandler(this.pictureBox_Coins_50p_Click_1);
             // 
-            // pictureBox7
+            // pictureBox_Coins_100p
             // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(121, 191);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 7;
-            this.pictureBox7.TabStop = false;
+            this.pictureBox_Coins_100p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox_Coins_100p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Coins_100p.Image")));
+            this.pictureBox_Coins_100p.Location = new System.Drawing.Point(206, 189);
+            this.pictureBox_Coins_100p.Name = "pictureBox_Coins_100p";
+            this.pictureBox_Coins_100p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_Coins_100p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_Coins_100p.TabIndex = 7;
+            this.pictureBox_Coins_100p.TabStop = false;
+            this.pictureBox_Coins_100p.Click += new System.EventHandler(this.pictureBox_Coins_100p_Click_1);
             // 
-            // pictureBox8
+            // pictureBox_Coins_200p
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(121, 247);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 8;
-            this.pictureBox8.TabStop = false;
+            this.pictureBox_Coins_200p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox_Coins_200p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Coins_200p.Image")));
+            this.pictureBox_Coins_200p.Location = new System.Drawing.Point(206, 245);
+            this.pictureBox_Coins_200p.Name = "pictureBox_Coins_200p";
+            this.pictureBox_Coins_200p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_Coins_200p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_Coins_200p.TabIndex = 8;
+            this.pictureBox_Coins_200p.TabStop = false;
+            this.pictureBox_Coins_200p.Click += new System.EventHandler(this.pictureBox_Coins_200p_Click_1);
             // 
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(49, 17);
+            this.textBox1.Location = new System.Drawing.Point(120, 10);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(148, 61);
@@ -197,91 +220,91 @@
             this.textBox1.Text = "Click A Coin To Buy Credits";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // pictureBox9
+            // pictureBox_CoinsEntered_1p
             // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(545, 17);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 11;
-            this.pictureBox9.TabStop = false;
+            this.pictureBox_CoinsEntered_1p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_CoinsEntered_1p.Image")));
+            this.pictureBox_CoinsEntered_1p.Location = new System.Drawing.Point(81, 7);
+            this.pictureBox_CoinsEntered_1p.Name = "pictureBox_CoinsEntered_1p";
+            this.pictureBox_CoinsEntered_1p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_CoinsEntered_1p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_CoinsEntered_1p.TabIndex = 11;
+            this.pictureBox_CoinsEntered_1p.TabStop = false;
             // 
-            // pictureBox10
+            // pictureBox_CoinsEntered_2p
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(545, 73);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 12;
-            this.pictureBox10.TabStop = false;
+            this.pictureBox_CoinsEntered_2p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_CoinsEntered_2p.Image")));
+            this.pictureBox_CoinsEntered_2p.Location = new System.Drawing.Point(81, 63);
+            this.pictureBox_CoinsEntered_2p.Name = "pictureBox_CoinsEntered_2p";
+            this.pictureBox_CoinsEntered_2p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_CoinsEntered_2p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_CoinsEntered_2p.TabIndex = 12;
+            this.pictureBox_CoinsEntered_2p.TabStop = false;
             // 
-            // pictureBox11
+            // pictureBox_CoinsEntered_5p
             // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(545, 129);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 13;
-            this.pictureBox11.TabStop = false;
+            this.pictureBox_CoinsEntered_5p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_CoinsEntered_5p.Image")));
+            this.pictureBox_CoinsEntered_5p.Location = new System.Drawing.Point(81, 119);
+            this.pictureBox_CoinsEntered_5p.Name = "pictureBox_CoinsEntered_5p";
+            this.pictureBox_CoinsEntered_5p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_CoinsEntered_5p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_CoinsEntered_5p.TabIndex = 13;
+            this.pictureBox_CoinsEntered_5p.TabStop = false;
             // 
-            // pictureBox12
+            // pictureBox_CoinsEntered_10p
             // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(545, 185);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 14;
-            this.pictureBox12.TabStop = false;
+            this.pictureBox_CoinsEntered_10p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_CoinsEntered_10p.Image")));
+            this.pictureBox_CoinsEntered_10p.Location = new System.Drawing.Point(81, 175);
+            this.pictureBox_CoinsEntered_10p.Name = "pictureBox_CoinsEntered_10p";
+            this.pictureBox_CoinsEntered_10p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_CoinsEntered_10p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_CoinsEntered_10p.TabIndex = 14;
+            this.pictureBox_CoinsEntered_10p.TabStop = false;
             // 
-            // pictureBox13
+            // pictureBox_CoinsEntered_20p
             // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(545, 241);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 15;
-            this.pictureBox13.TabStop = false;
+            this.pictureBox_CoinsEntered_20p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_CoinsEntered_20p.Image")));
+            this.pictureBox_CoinsEntered_20p.Location = new System.Drawing.Point(81, 231);
+            this.pictureBox_CoinsEntered_20p.Name = "pictureBox_CoinsEntered_20p";
+            this.pictureBox_CoinsEntered_20p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_CoinsEntered_20p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_CoinsEntered_20p.TabIndex = 15;
+            this.pictureBox_CoinsEntered_20p.TabStop = false;
             // 
-            // pictureBox14
+            // pictureBox_CoinsEntered_50p
             // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(545, 297);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 16;
-            this.pictureBox14.TabStop = false;
+            this.pictureBox_CoinsEntered_50p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_CoinsEntered_50p.Image")));
+            this.pictureBox_CoinsEntered_50p.Location = new System.Drawing.Point(81, 287);
+            this.pictureBox_CoinsEntered_50p.Name = "pictureBox_CoinsEntered_50p";
+            this.pictureBox_CoinsEntered_50p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_CoinsEntered_50p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_CoinsEntered_50p.TabIndex = 16;
+            this.pictureBox_CoinsEntered_50p.TabStop = false;
             // 
-            // pictureBox15
+            // pictureBox_CoinsEntered_100p
             // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(545, 353);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 17;
-            this.pictureBox15.TabStop = false;
+            this.pictureBox_CoinsEntered_100p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_CoinsEntered_100p.Image")));
+            this.pictureBox_CoinsEntered_100p.Location = new System.Drawing.Point(81, 343);
+            this.pictureBox_CoinsEntered_100p.Name = "pictureBox_CoinsEntered_100p";
+            this.pictureBox_CoinsEntered_100p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_CoinsEntered_100p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_CoinsEntered_100p.TabIndex = 17;
+            this.pictureBox_CoinsEntered_100p.TabStop = false;
             // 
-            // pictureBox16
+            // pictureBox_CoinsEntered_200p
             // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(545, 409);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 18;
-            this.pictureBox16.TabStop = false;
+            this.pictureBox_CoinsEntered_200p.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_CoinsEntered_200p.Image")));
+            this.pictureBox_CoinsEntered_200p.Location = new System.Drawing.Point(81, 399);
+            this.pictureBox_CoinsEntered_200p.Name = "pictureBox_CoinsEntered_200p";
+            this.pictureBox_CoinsEntered_200p.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox_CoinsEntered_200p.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_CoinsEntered_200p.TabIndex = 18;
+            this.pictureBox_CoinsEntered_200p.TabStop = false;
             // 
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(514, 27);
+            this.textBox2.Location = new System.Drawing.Point(50, 17);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(18, 29);
@@ -293,7 +316,7 @@
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(514, 414);
+            this.textBox3.Location = new System.Drawing.Point(50, 404);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(18, 29);
@@ -304,7 +327,7 @@
             // 
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(514, 362);
+            this.textBox4.Location = new System.Drawing.Point(50, 352);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(18, 29);
@@ -315,7 +338,7 @@
             // 
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(514, 307);
+            this.textBox5.Location = new System.Drawing.Point(50, 297);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(18, 29);
@@ -326,7 +349,7 @@
             // 
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(514, 247);
+            this.textBox6.Location = new System.Drawing.Point(50, 237);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(18, 29);
@@ -337,7 +360,7 @@
             // 
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(514, 191);
+            this.textBox7.Location = new System.Drawing.Point(50, 181);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(18, 29);
@@ -348,7 +371,7 @@
             // 
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(514, 135);
+            this.textBox8.Location = new System.Drawing.Point(50, 125);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(18, 29);
@@ -359,7 +382,7 @@
             // 
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(514, 79);
+            this.textBox9.Location = new System.Drawing.Point(50, 69);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(18, 29);
@@ -370,7 +393,7 @@
             // 
             this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(13, 321);
+            this.textBox10.Location = new System.Drawing.Point(-2, 315);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(118, 26);
@@ -378,39 +401,40 @@
             this.textBox10.Text = "Total Value";
             this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
-            // textBox11
+            // textBox_TotalValue
             // 
-            this.textBox11.Location = new System.Drawing.Point(130, 325);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 28;
+            this.textBox_TotalValue.Location = new System.Drawing.Point(116, 319);
+            this.textBox_TotalValue.Name = "textBox_TotalValue";
+            this.textBox_TotalValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox_TotalValue.Size = new System.Drawing.Size(100, 20);
+            this.textBox_TotalValue.TabIndex = 28;
+            this.textBox_TotalValue.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
             // 
             // textBox12
             // 
             this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(236, 325);
+            this.textBox12.Location = new System.Drawing.Point(221, 316);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(22, 22);
             this.textBox12.TabIndex = 29;
             this.textBox12.Text = "p";
             // 
-            // textBox13
+            // textBox_TotalValueMixed
             // 
-            this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(281, 325);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox13.Size = new System.Drawing.Size(100, 22);
-            this.textBox13.TabIndex = 30;
-            this.textBox13.Text = "0.00";
+            this.textBox_TotalValueMixed.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_TotalValueMixed.Location = new System.Drawing.Point(269, 318);
+            this.textBox_TotalValueMixed.Name = "textBox_TotalValueMixed";
+            this.textBox_TotalValueMixed.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox_TotalValueMixed.Size = new System.Drawing.Size(100, 22);
+            this.textBox_TotalValueMixed.TabIndex = 30;
+            this.textBox_TotalValueMixed.Text = "0.00";
             // 
             // textBox14
             // 
             this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(264, 322);
+            this.textBox14.Location = new System.Drawing.Point(252, 317);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(16, 22);
             this.textBox14.TabIndex = 31;
@@ -420,7 +444,7 @@
             // 
             this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(387, 325);
+            this.textBox15.Location = new System.Drawing.Point(375, 318);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(18, 22);
             this.textBox15.TabIndex = 32;
@@ -430,28 +454,29 @@
             // 
             this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(12, 382);
+            this.textBox16.Location = new System.Drawing.Point(8, 16);
             this.textBox16.Multiline = true;
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(327, 26);
             this.textBox16.TabIndex = 33;
             this.textBox16.Text = "Please Enter The Cost Per Credit";
             // 
-            // textBox17
+            // textBox_CostPerCredit
             // 
-            this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(332, 385);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox17.Size = new System.Drawing.Size(40, 22);
-            this.textBox17.TabIndex = 34;
-            this.textBox17.Text = "0";
+            this.textBox_CostPerCredit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_CostPerCredit.Location = new System.Drawing.Point(328, 19);
+            this.textBox_CostPerCredit.Name = "textBox_CostPerCredit";
+            this.textBox_CostPerCredit.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox_CostPerCredit.Size = new System.Drawing.Size(40, 22);
+            this.textBox_CostPerCredit.TabIndex = 34;
+            this.textBox_CostPerCredit.Text = "0";
+            this.textBox_CostPerCredit.TextChanged += new System.EventHandler(this.textBox_CostPerCredit_TextChanged);
             // 
             // textBox18
             // 
             this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(387, 386);
+            this.textBox18.Location = new System.Drawing.Point(383, 20);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(14, 22);
             this.textBox18.TabIndex = 35;
@@ -461,173 +486,229 @@
             // 
             this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(12, 421);
+            this.textBox19.Location = new System.Drawing.Point(8, 55);
             this.textBox19.Multiline = true;
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(346, 22);
             this.textBox19.TabIndex = 36;
             this.textBox19.Text = "You Currently Have This Number Of Credits";
             // 
-            // textBox20
+            // textBox_NumberOfCredits
             // 
-            this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.Location = new System.Drawing.Point(352, 421);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox20.Size = new System.Drawing.Size(49, 22);
-            this.textBox20.TabIndex = 37;
-            this.textBox20.Text = "0";
+            this.textBox_NumberOfCredits.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_NumberOfCredits.Location = new System.Drawing.Point(348, 55);
+            this.textBox_NumberOfCredits.Name = "textBox_NumberOfCredits";
+            this.textBox_NumberOfCredits.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox_NumberOfCredits.Size = new System.Drawing.Size(49, 22);
+            this.textBox_NumberOfCredits.TabIndex = 37;
+            this.textBox_NumberOfCredits.Text = "0";
+            this.textBox_NumberOfCredits.TextChanged += new System.EventHandler(this.textBox_NumberOfCredits_TextChanged);
             // 
-            // textBox21
+            // textBox_Counter_200p
             // 
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(484, 417);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(14, 22);
-            this.textBox21.TabIndex = 38;
-            this.textBox21.Text = "0";
+            this.textBox_Counter_200p.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_Counter_200p.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Counter_200p.Location = new System.Drawing.Point(20, 407);
+            this.textBox_Counter_200p.Name = "textBox_Counter_200p";
+            this.textBox_Counter_200p.Size = new System.Drawing.Size(14, 22);
+            this.textBox_Counter_200p.TabIndex = 38;
+            this.textBox_Counter_200p.Text = "0";
             // 
-            // textBox22
+            // textBox_Counter_100p
             // 
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.Location = new System.Drawing.Point(484, 364);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(14, 22);
-            this.textBox22.TabIndex = 39;
-            this.textBox22.Text = "0";
+            this.textBox_Counter_100p.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_Counter_100p.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Counter_100p.Location = new System.Drawing.Point(20, 354);
+            this.textBox_Counter_100p.Name = "textBox_Counter_100p";
+            this.textBox_Counter_100p.Size = new System.Drawing.Size(14, 22);
+            this.textBox_Counter_100p.TabIndex = 39;
+            this.textBox_Counter_100p.Text = "0";
             // 
-            // textBox23
+            // textBox_Counter_50p
             // 
-            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(484, 308);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(14, 22);
-            this.textBox23.TabIndex = 40;
-            this.textBox23.Text = "0";
+            this.textBox_Counter_50p.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_Counter_50p.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Counter_50p.Location = new System.Drawing.Point(20, 298);
+            this.textBox_Counter_50p.Name = "textBox_Counter_50p";
+            this.textBox_Counter_50p.Size = new System.Drawing.Size(14, 22);
+            this.textBox_Counter_50p.TabIndex = 40;
+            this.textBox_Counter_50p.Text = "0";
             // 
-            // textBox24
+            // textBox_Counter_20p
             // 
-            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox24.Location = new System.Drawing.Point(484, 250);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(14, 22);
-            this.textBox24.TabIndex = 41;
-            this.textBox24.Text = "0";
-            this.textBox24.TextChanged += new System.EventHandler(this.textBox24_TextChanged);
+            this.textBox_Counter_20p.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_Counter_20p.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Counter_20p.Location = new System.Drawing.Point(20, 240);
+            this.textBox_Counter_20p.Name = "textBox_Counter_20p";
+            this.textBox_Counter_20p.Size = new System.Drawing.Size(14, 22);
+            this.textBox_Counter_20p.TabIndex = 41;
+            this.textBox_Counter_20p.Text = "0";
+            this.textBox_Counter_20p.TextChanged += new System.EventHandler(this.textBox24_TextChanged);
             // 
-            // textBox25
+            // textBox_Counter_10p
             // 
-            this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.Location = new System.Drawing.Point(484, 194);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(14, 22);
-            this.textBox25.TabIndex = 42;
-            this.textBox25.Text = "0";
+            this.textBox_Counter_10p.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_Counter_10p.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Counter_10p.Location = new System.Drawing.Point(20, 184);
+            this.textBox_Counter_10p.Name = "textBox_Counter_10p";
+            this.textBox_Counter_10p.Size = new System.Drawing.Size(14, 22);
+            this.textBox_Counter_10p.TabIndex = 42;
+            this.textBox_Counter_10p.Text = "0";
             // 
-            // textBox26
+            // textBox_Counter_5p
             // 
-            this.textBox26.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.Location = new System.Drawing.Point(484, 138);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(14, 22);
-            this.textBox26.TabIndex = 43;
-            this.textBox26.Text = "0";
+            this.textBox_Counter_5p.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_Counter_5p.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Counter_5p.Location = new System.Drawing.Point(20, 128);
+            this.textBox_Counter_5p.Name = "textBox_Counter_5p";
+            this.textBox_Counter_5p.Size = new System.Drawing.Size(14, 22);
+            this.textBox_Counter_5p.TabIndex = 43;
+            this.textBox_Counter_5p.Text = "0";
             // 
-            // textBox27
+            // textBox_Counter_2p
             // 
-            this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.Location = new System.Drawing.Point(484, 82);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(14, 22);
-            this.textBox27.TabIndex = 44;
-            this.textBox27.Text = "0";
+            this.textBox_Counter_2p.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_Counter_2p.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Counter_2p.Location = new System.Drawing.Point(20, 72);
+            this.textBox_Counter_2p.Name = "textBox_Counter_2p";
+            this.textBox_Counter_2p.Size = new System.Drawing.Size(14, 22);
+            this.textBox_Counter_2p.TabIndex = 44;
+            this.textBox_Counter_2p.Text = "0";
             // 
-            // textBox28
+            // groupBox1
             // 
-            this.textBox28.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox28.Location = new System.Drawing.Point(484, 30);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(14, 22);
-            this.textBox28.TabIndex = 45;
-            this.textBox28.Text = "0";
+            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.pictureBox_Coins_1p);
+            this.groupBox1.Controls.Add(this.pictureBox_Coins_2p);
+            this.groupBox1.Controls.Add(this.pictureBox_Coins_5p);
+            this.groupBox1.Controls.Add(this.pictureBox_Coins_10p);
+            this.groupBox1.Controls.Add(this.pictureBox_Coins_20p);
+            this.groupBox1.Controls.Add(this.pictureBox_Coins_50p);
+            this.groupBox1.Controls.Add(this.pictureBox_Coins_100p);
+            this.groupBox1.Controls.Add(this.pictureBox_Coins_200p);
+            this.groupBox1.Controls.Add(this.textBox_TotalValueMixed);
+            this.groupBox1.Controls.Add(this.textBox14);
+            this.groupBox1.Controls.Add(this.textBox15);
+            this.groupBox1.Controls.Add(this.textBox10);
+            this.groupBox1.Controls.Add(this.textBox12);
+            this.groupBox1.Controls.Add(this.textBox_TotalValue);
+            this.groupBox1.Location = new System.Drawing.Point(13, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(393, 359);
+            this.groupBox1.TabIndex = 46;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Coins";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.White;
+            this.groupBox2.Controls.Add(this.textBox_NumberOfCredits);
+            this.groupBox2.Controls.Add(this.textBox19);
+            this.groupBox2.Controls.Add(this.textBox18);
+            this.groupBox2.Controls.Add(this.textBox_CostPerCredit);
+            this.groupBox2.Controls.Add(this.textBox16);
+            this.groupBox2.Location = new System.Drawing.Point(2, 377);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(416, 80);
+            this.groupBox2.TabIndex = 47;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Credits";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.White;
+            this.groupBox3.Controls.Add(this.textBox_Counter_1p);
+            this.groupBox3.Controls.Add(this.textBox_Counter_2p);
+            this.groupBox3.Controls.Add(this.textBox_Counter_5p);
+            this.groupBox3.Controls.Add(this.textBox_Counter_10p);
+            this.groupBox3.Controls.Add(this.textBox_Counter_20p);
+            this.groupBox3.Controls.Add(this.textBox_Counter_50p);
+            this.groupBox3.Controls.Add(this.textBox_Counter_100p);
+            this.groupBox3.Controls.Add(this.textBox_Counter_200p);
+            this.groupBox3.Controls.Add(this.textBox9);
+            this.groupBox3.Controls.Add(this.textBox8);
+            this.groupBox3.Controls.Add(this.textBox7);
+            this.groupBox3.Controls.Add(this.textBox6);
+            this.groupBox3.Controls.Add(this.textBox5);
+            this.groupBox3.Controls.Add(this.textBox4);
+            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Controls.Add(this.textBox2);
+            this.groupBox3.Controls.Add(this.pictureBox_CoinsEntered_200p);
+            this.groupBox3.Controls.Add(this.pictureBox_CoinsEntered_100p);
+            this.groupBox3.Controls.Add(this.pictureBox_CoinsEntered_50p);
+            this.groupBox3.Controls.Add(this.pictureBox_CoinsEntered_20p);
+            this.groupBox3.Controls.Add(this.pictureBox_CoinsEntered_10p);
+            this.groupBox3.Controls.Add(this.pictureBox_CoinsEntered_5p);
+            this.groupBox3.Controls.Add(this.pictureBox_CoinsEntered_2p);
+            this.groupBox3.Controls.Add(this.pictureBox_CoinsEntered_1p);
+            this.groupBox3.Location = new System.Drawing.Point(420, 12);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(189, 450);
+            this.groupBox3.TabIndex = 48;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Coins Entered";
+            // 
+            // textBox_Counter_1p
+            // 
+            this.textBox_Counter_1p.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_Counter_1p.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Counter_1p.Location = new System.Drawing.Point(20, 19);
+            this.textBox_Counter_1p.Name = "textBox_Counter_1p";
+            this.textBox_Counter_1p.Size = new System.Drawing.Size(14, 22);
+            this.textBox_Counter_1p.TabIndex = 45;
+            this.textBox_Counter_1p.Text = "0";
+            this.textBox_Counter_1p.TextChanged += new System.EventHandler(this.textBox28_TextChanged);
+            // 
+            // textBox29
+            // 
+            this.textBox29.BackColor = System.Drawing.Color.NavajoWhite;
+            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox29.Location = new System.Drawing.Point(480, 488);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(141, 13);
+            this.textBox29.TabIndex = 49;
+            this.textBox29.Text = "Copyright Daniel Bowns 2017";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 680);
-            this.Controls.Add(this.textBox28);
-            this.Controls.Add(this.textBox27);
-            this.Controls.Add(this.textBox26);
-            this.Controls.Add(this.textBox25);
-            this.Controls.Add(this.textBox24);
-            this.Controls.Add(this.textBox23);
-            this.Controls.Add(this.textBox22);
-            this.Controls.Add(this.textBox21);
-            this.Controls.Add(this.textBox20);
-            this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.Color.NavajoWhite;
+            this.ClientSize = new System.Drawing.Size(623, 504);
+            this.Controls.Add(this.textBox29);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.button_Reset);
+            this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Credit Counter v2.0";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_1p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_2p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_5p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_10p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_20p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_50p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_100p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Coins_200p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_1p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_2p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_5p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_10p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_20p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_50p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_100p)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_CoinsEntered_200p)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -635,24 +716,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Button button_Reset;
+        private System.Windows.Forms.PictureBox pictureBox_Coins_1p;
+        private System.Windows.Forms.PictureBox pictureBox_Coins_2p;
+        private System.Windows.Forms.PictureBox pictureBox_Coins_5p;
+        private System.Windows.Forms.PictureBox pictureBox_Coins_10p;
+        private System.Windows.Forms.PictureBox pictureBox_Coins_20p;
+        private System.Windows.Forms.PictureBox pictureBox_Coins_50p;
+        private System.Windows.Forms.PictureBox pictureBox_Coins_100p;
+        private System.Windows.Forms.PictureBox pictureBox_Coins_200p;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox pictureBox_CoinsEntered_1p;
+        private System.Windows.Forms.PictureBox pictureBox_CoinsEntered_2p;
+        private System.Windows.Forms.PictureBox pictureBox_CoinsEntered_5p;
+        private System.Windows.Forms.PictureBox pictureBox_CoinsEntered_10p;
+        private System.Windows.Forms.PictureBox pictureBox_CoinsEntered_20p;
+        private System.Windows.Forms.PictureBox pictureBox_CoinsEntered_50p;
+        private System.Windows.Forms.PictureBox pictureBox_CoinsEntered_100p;
+        private System.Windows.Forms.PictureBox pictureBox_CoinsEntered_200p;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
@@ -662,24 +743,28 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox_TotalValue;
         private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox_TotalValueMixed;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox_CostPerCredit;
         private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.TextBox textBox_NumberOfCredits;
+        private System.Windows.Forms.TextBox textBox_Counter_200p;
+        private System.Windows.Forms.TextBox textBox_Counter_100p;
+        private System.Windows.Forms.TextBox textBox_Counter_50p;
+        private System.Windows.Forms.TextBox textBox_Counter_20p;
+        private System.Windows.Forms.TextBox textBox_Counter_10p;
+        private System.Windows.Forms.TextBox textBox_Counter_5p;
+        private System.Windows.Forms.TextBox textBox_Counter_2p;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox textBox_Counter_1p;
     }
 }
 
